@@ -7,7 +7,8 @@ The loan descriptions offer a very intersting way of incoporating text analysis 
 
 I found the best performing models using a down-sampling procedure due to a high level of imbalance in the target variable (few people who default on their loans). Testing KNN, Random Forests and Logistic Regression yielded the following results:
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+|              | Accuracy       | Precision     | Recall      | F1        |
+| :---         |  :---          |  :---         | :---        | :---      |
+|KNN           | 0.62           | 0.23          | 0.63        | 0.33      |
+|Random Forest | 0.61           | 0.22          | 0.59        | 0.32      |
+|Logistic      | 0.62           | 0.23          | 0.64        | 0.34      |
