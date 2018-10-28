@@ -5,7 +5,8 @@ This data contains a range of interesting variables about the borrowers receivin
 
 The loan descriptions offer a very intersting way of incoporating text analysis into machine learning models. I try to predict the probability that borrowers default using the commonly provided loan-level data as well as their loan descriptions. 
 
-I found the best performing models using a down-sampling procedure due to a high level of imbalance in the target variable (few people who default on their loans). Testing KNN, Random Forests and Logistic Regression yielded the following results:
+### Results
+I found the best performing models using a down-sampling procedure due to a high level of imbalance in the target variable (few people who default on their loans). Testing KNN, Random Forests and Logistic Regression yielded the following results. Not super impressive overall. And the models appear to perform very similar. Maybe you can do better? :-) You will also find some descriptive statistics in the notebook that are interesting.
 
 |              | Accuracy       | Precision     | Recall      | F1        |
 | :---         |  :---          |  :---         | :---        | :---      |
