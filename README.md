@@ -11,7 +11,7 @@ The loan descriptions offer a very intersting way of incoporating text analysis 
 ### Results
 I found the best performing models using a down-sampling procedure due to a high level of imbalance in the target variable (few people who default on their loans). Testing KNN, Random Forests and Logistic Regression yielded the following results. Not super impressive overall. And the models appear to perform very similar. Maybe you can do better? :-) You will also find some descriptive statistics in the notebook that are interesting.
 
-<center>
+<p align="center">
 
 |              | Accuracy       | Precision     | Recall      | F1        |
 | :---         |  :---          |  :---         | :---        | :---      |
@@ -19,5 +19,5 @@ I found the best performing models using a down-sampling procedure due to a high
 |Random Forest | 0.61           | 0.22          | 0.59        | 0.32      |
 |Logistic      | 0.62           | 0.23          | 0.64        | 0.34      |
 
-</center>
+</p>
 
