@@ -1,5 +1,5 @@
 # Predicting loan default in peer-to-peer loan markets
-In this project I have used methods machine learning models and Natural Language Processing to build predictive models, and test to which degree I can predict whether borrowers will default on their loans in peer-to-peer lending markets. I have used  data from one of the world’s largest P2P platforms, Lending Club. The data is publicly available on www.lendingclub.com
+In this project I have used methods from machine learning and natural language processing to build predictive models, and test to which degree I can predict whether borrowers will default on their loans in peer-to-peer lending markets. I have used  data from one of the world’s largest P2P platforms, Lending Club. The data is publicly available on www.lendingclub.com
 
 Peer-to-peer lending is a promising lending platform. Ordinary people can invest in giving loans to other people. It is like a form of crowd-sourcing where everyone can help each other out financially and gain a profit also! However, if people default on their loans it ruins the trust in the system which can deter people from using P2P-lending. Therefore, it is pretty interesting to see if we can find people who are likely to default before they actually default on their loans. This allows for preventive measures. 
 
