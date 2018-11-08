@@ -16,6 +16,6 @@ I found the best performing models using a down-sampling procedure due to a high
 | :---                 |  :---          |  :---         | :---        | :---      |
 |KNN                   | 0.62           | 0.23          | 0.63        | 0.33      |
 |Random Forest         | 0.61           | 0.22          | 0.59        | 0.32      |
-|Logistic regresion    | 0.62           | 0.23          | 0.64        | 0.34      |
+|Logistic regression    | 0.62           | 0.23          | 0.64        | 0.34      |
 
 
