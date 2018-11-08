@@ -6,7 +6,7 @@ Peer-to-peer lending is a promising lending platform. Ordinary people can invest
 ### The data
 This data contains a range of interesting variables about the borrowers receiving the loans as well as whether the borrowers have defaulted or not. It contains quantitative loan-level data, such as the loan amount, the interest rate of the loan, and the annual income of the borrower. Interestingly, it also contains text bits written by borrowers themselves. These loan descriptions serve as the borrower’s motivational letter for what he/she want to use the money for, and why he/she should be given it.  
 
-The loan descriptions offer a very intersting way of incoporating text analysis into machine learning models. I try to predict the probability that borrowers default using the commonly provided loan-level data as well as their loan descriptions. 
+The loan descriptions offer a very intersting way of incoporating text analysis into machine learning models. I try to predict the probability that borrowers default using the commonly provided loan-level data as well as their loan descriptions. I extract measures from the texts such as sentiment, polarity, spelling errors, use of pronouns, length of text etc. 
 
 ### Results
 I found the best performing models using a down-sampling procedure due to a high level of imbalance in the target variable (few people who default on their loans). Testing KNN, Random Forests and Logistic Regression yielded the following results. Not super impressive overall. And the models appear to perform very similar. Maybe you can do better? :-) You will also find some descriptive statistics in the notebook that are interesting.
